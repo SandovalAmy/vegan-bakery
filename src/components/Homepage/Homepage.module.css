@@ -1,0 +1,21 @@
+.container {
+  border: solid blue 1px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.headline {
+  border: solid red 5px;
+}
+
+.header {
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+}
+
+.gallery {
+  border: solid green 5px;
+}
