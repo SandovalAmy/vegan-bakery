@@ -1,5 +1,30 @@
 .container {
   border: solid red 1px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.logo {
+  padding: 0;
+  margin: 1%;
+  font-size: 2em;
+}
+
+.links {
+  padding: 0;
+  margin: 1%;
+  list-style: none;
+}
+
+.links li {
+  align-self: center;
+}
+
+@media (min-width: 800px) {
+  .links {
+    display: flex;
+    gap: 1em;
+    font-size: 1.5em;
+  }
 }

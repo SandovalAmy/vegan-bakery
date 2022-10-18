@@ -3,7 +3,15 @@ import styles from "../Navigation/Navigation.module.css";
 
 function Navigation() {
   return (
-    <div className={styles.container}>This will be the Navigation bar</div>
+    <nav className={styles.container}>
+      <div className={styles.logo}>NAV LOGO</div>
+      <ul className={styles.links}>
+        <li>About Us</li>
+        <li>Our Products</li>
+        <li>Where to Find Us</li>
+        <li>Contact Us</li>
+      </ul>
+    </nav>
   );
 }
 
