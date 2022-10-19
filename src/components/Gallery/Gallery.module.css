@@ -1,6 +1,8 @@
 .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  gap: 1em;
+  grid-auto-flow: row;
+  grid-auto-rows: 1fr;
 }
 
 .card {
@@ -27,7 +29,7 @@
 
 @media (min-width: 800px) {
   .container {
-    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: stretch;
   }
