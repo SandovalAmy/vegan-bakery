@@ -1,0 +1,37 @@
+.container {
+  display: grid;
+  gap: 1em;
+  grid-auto-flow: row;
+  grid-auto-rows: 1fr;
+}
+
+.card {
+  /* box-shadow property to create paper-like cards */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  padding: 1.5em;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.title {
+  text-align: center;
+}
+
+.body {
+  text-align: left;
+}
+
+@media (min-width: 800px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: stretch;
+  }
+}
