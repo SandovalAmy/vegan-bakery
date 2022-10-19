@@ -1,5 +1,4 @@
 .container {
-  border: solid blue 1px;
   min-height: 100vh;
   background-image: url("nordwood-themes-ivP3TYdLvw0-unsplash.jpg");
   background-size: cover;
@@ -22,8 +21,4 @@
 .text {
   padding: 0 5%;
   text-align: left;
-}
-
-.gallery {
-  border: solid green 5px;
 }
