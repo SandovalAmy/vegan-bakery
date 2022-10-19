@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "../Homepage/Homepage.module.css";
+import styles from "../Headline/Headline.module.css";
 
-function Homepage() {
+function Headline() {
   return (
     <div className={styles.container}>
       <div className={styles.headline}>
@@ -18,12 +18,8 @@ function Homepage() {
           Open 4am - 9pm daily
         </p>
       </div>
-      <div className={styles.gallery}>
-        <h2 className={styles.header}>GALLERY</h2>
-        <p className={styles.text}>Images Here</p>
-      </div>
     </div>
   );
 }
 
-export default Homepage;
+export default Headline;
