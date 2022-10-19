@@ -1,11 +1,18 @@
 .container {
   border: solid blue 1px;
+  min-height: 100vh;
+  background-image: url("nordwood-themes-ivP3TYdLvw0-unsplash.jpg");
+  background-size: cover;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: column wrap;
 }
 
 .headline {
-  border: solid red 5px;
+  background-color: white;
+  opacity: 0.8;
+  max-width: 80%;
 }
 
 .header {
@@ -13,6 +20,7 @@
 }
 
 .text {
+  padding: 0 5%;
   text-align: left;
 }
 

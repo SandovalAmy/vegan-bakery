@@ -5,7 +5,7 @@ function Headline() {
   return (
     <div className={styles.container}>
       <div className={styles.headline}>
-        <h1 className={styles.header}>VEGAN BAKERY</h1>
+        <h1 className={styles.header}>VEGAN CAFE</h1>
         <p className={styles.text}>
           Owned by Queer POC, this cafe provides a place where all are welcome.
           Here you can work remotely, study with classmates, or hang out with
