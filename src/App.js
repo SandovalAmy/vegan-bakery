@@ -2,6 +2,7 @@ import Navigation from "./components/Navigation/Navigation";
 import Headline from "./components/Headline/Headline";
 import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             </div>
           }
         />
+        <Route path="/About" element={<About />} />
       </Routes>
     </HashRouter>
   );
