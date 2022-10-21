@@ -4,6 +4,7 @@ import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import Products from "./components/Products/Products";
+import Location from "./components/Location/Location";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         />
         <Route path="/About" element={<About />} />
         <Route path="/Products" element={<Products />} />
+        <Route path="/Location" element={<Location />} />
       </Routes>
     </HashRouter>
   );

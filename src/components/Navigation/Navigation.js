@@ -13,7 +13,9 @@ function Navigation() {
         <li>
           <Link to="/Products">Our Products</Link>
         </li>
-        <li>Where to Find Us</li>
+        <li>
+          <Link to="/Location">Where to Find Us</Link>
+        </li>
         <li>Contact Us</li>
       </ul>
     </nav>
