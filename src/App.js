@@ -6,7 +6,7 @@ import About from "./components/About/About";
 import Products from "./components/Products/Products";
 import Location from "./components/Location/Location";
 import Contact from "./components/Contact/Contact";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, NavigationType } from "react-router-dom";
 
 function App() {
   return (
@@ -24,10 +24,46 @@ function App() {
             </div>
           }
         />
-        <Route path="/About" element={<About />} />
-        <Route path="/Products" element={<Products />} />
-        <Route path="/Location" element={<Location />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route
+          path="/About"
+          element={
+            <div>
+              <Navigation />
+              <About />
+              <Footer />
+            </div>
+          }
+        />
+        <Route
+          path="/Products"
+          element={
+            <div>
+              <Navigation />
+              <Products />
+              <Footer />
+            </div>
+          }
+        />
+        <Route
+          path="/Location"
+          element={
+            <div>
+              <Navigation />
+              <Location />
+              <Footer />{" "}
+            </div>
+          }
+        />
+        <Route
+          path="/Contact"
+          element={
+            <div>
+              <Navigation />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        />
       </Routes>
     </HashRouter>
   );
