@@ -3,6 +3,7 @@ import Headline from "./components/Headline/Headline";
 import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
+import Products from "./components/Products/Products";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           }
         />
         <Route path="/About" element={<About />} />
+        <Route path="/Products" element={<Products />} />
       </Routes>
     </HashRouter>
   );

@@ -10,7 +10,9 @@ function Navigation() {
         <li>
           <Link to="/About"> About Us </Link>
         </li>
-        <li>Our Products</li>
+        <li>
+          <Link to="/Products">Our Products</Link>
+        </li>
         <li>Where to Find Us</li>
         <li>Contact Us</li>
       </ul>
